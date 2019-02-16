@@ -1,0 +1,20 @@
+html, body {
+    height: 100%
+}
+body {
+    background-color: #2f2f2f;
+}
+h1 {
+    font-family: san-serif, system-ui;
+    text-align: center;
+    color: white;
+    animation: blink infinite 1.5s;
+    text-shadow: 0 0 0 6px white, 0 0 0 0 #2f2f2f;
+    cursor: pointer;
+}
+
+@keyframes blink {
+    0%      { color: transparent }
+    50%     { color: white }
+    100%    { color: transparent }
+}

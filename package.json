@@ -1,0 +1,27 @@
+{
+  "name": "served-from-memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "s": "node src/server.js",
+    "d": "node --inspect-brk src/server.js",
+    "b": "webpack --config webpack.dev.js"
+  },
+  "author": "Aristov Alexander Alexandrovich",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "memfs": "^2.15.1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "send": "github:hinell/send",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "github:hinell/webpack-dev-middleware"
+  }
+}
